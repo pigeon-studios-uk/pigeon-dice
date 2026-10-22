@@ -4,14 +4,14 @@
   <p><strong>Roleplay dice for FiveM: roll anything from a d20 to 2d6+3, advantage, Fate dice, coins and ranges, shown in chat and above your head.</strong></p>
 
   <p>
-    <a href="https://github.com/WelshPigeon/pigeon-dice/releases/latest"><img src="https://img.shields.io/github/v/release/WelshPigeon/pigeon-dice?label=release&color=2ea043" alt="Latest release" /></a>
+    <a href="https://github.com/pigeon-studios-uk/pigeon-dice/releases/latest"><img src="https://img.shields.io/github/v/release/pigeon-studios-uk/pigeon-dice?label=release&color=2ea043" alt="Latest release" /></a>
     <a href="LICENSE.md"><img src="https://img.shields.io/badge/licence-Pigeon%20Studios%20Free-6f42c1" alt="Licence: Pigeon Studios Free Licence" /></a>
     <a href="https://discord.gg/2NFVWEUmDF"><img src="https://img.shields.io/badge/support-Discord-5865F2?logo=discord&logoColor=white" alt="Discord support" /></a>
     <img src="https://img.shields.io/badge/FiveM-resource-F40552" alt="FiveM resource" />
   </p>
 
   <p>
-    <a href="https://github.com/WelshPigeon/pigeon-dice/releases/latest"><strong>Download</strong></a> ·
+    <a href="https://github.com/pigeon-studios-uk/pigeon-dice/releases/latest"><strong>Download</strong></a> ·
     <a href="#installation">Install</a> ·
     <a href="#configuration">Configure</a> ·
     <a href="CHANGELOG.md">Changelog</a> ·
@@ -94,7 +94,7 @@ Dropped dice are shown in brackets. Above the roller's head, for six seconds: `4
 
 ## Installation
 
-1. **Download** `pigeon-dice.zip` from the [latest release](https://github.com/WelshPigeon/pigeon-dice/releases/latest). Don't use the green **Code** button; release zips are the tested builds.
+1. **Download** `pigeon-dice.zip` from the [latest release](https://github.com/pigeon-studios-uk/pigeon-dice/releases/latest). Don't use the green **Code** button; release zips are the tested builds.
 2. **Extract** it into your server's `resources` folder. The folder must be called `pigeon-dice`.
 3. **Start it** by adding this to `server.cfg`, after your chat resource (and after ox_lib, if you use it):
 
@@ -255,7 +255,7 @@ Set `Config.Locale` to a file in `locales/`. To add a language, copy `locales/en
 
 ## Update checker
 
-When it starts, Pigeon Dice checks our public [version registry](https://github.com/WelshPigeon/pigeon-versions) once and prints one line in the server console saying whether it's up to date. If there's an update, it shows what's new and where to get it. The check is a single request to GitHub and sends nothing about your server or players.
+When it starts, Pigeon Dice checks our public [version registry](https://github.com/pigeon-studios-uk/pigeon-versions) once and prints one line in the server console saying whether it's up to date. If there's an update, it shows what's new and where to get it. The check is a single request to GitHub and sends nothing about your server or players.
 
 Control it for every Pigeon Studios resource at once in `server.cfg`:
 
@@ -276,7 +276,7 @@ Nothing runs while nobody is rolling: the resource sits at 0.00 ms on the client
 - Rolls are sent only to players near the roller in the same routing bucket.
 - Player names are cleaned before they reach chat, floating text or Discord.
 
-Found a problem? Please don't open a public issue. Use the **Report a vulnerability** button in this repository's **Security** tab, or follow our [Security Policy](https://github.com/WelshPigeon/.github/blob/main/SECURITY.md).
+Found a problem? Please don't open a public issue. Use the **Report a vulnerability** button in this repository's **Security** tab, or follow our [Security Policy](https://github.com/pigeon-studios-uk/.github/blob/main/SECURITY.md).
 
 ## Troubleshooting
 
@@ -314,13 +314,13 @@ No. Every die is rolled on the server, and the result is sent to everyone at the
 
 ## Support
 
-Read [Troubleshooting](#troubleshooting) first, then ask in the support channels of our [Discord](https://discord.gg/2NFVWEUmDF). Please include your Pigeon Dice version, FXServer artifact and any errors from the console. See [Getting help](https://github.com/WelshPigeon/.github/blob/main/SUPPORT.md).
+Read [Troubleshooting](#troubleshooting) first, then ask in the support channels of our [Discord](https://discord.gg/2NFVWEUmDF). Please include your Pigeon Dice version, FXServer artifact and any errors from the console. See [Getting help](https://github.com/pigeon-studios-uk/.github/blob/main/SUPPORT.md).
 
-Found a bug? Open a [bug report](https://github.com/WelshPigeon/pigeon-dice/issues/new/choose).
+Found a bug? Open a [bug report](https://github.com/pigeon-studios-uk/pigeon-dice/issues/new/choose).
 
 ## Contributing
 
-Fixes, improvements and translations are welcome. Please read the [contributing guide](https://github.com/WelshPigeon/.github/blob/main/CONTRIBUTING.md) first, and open a feature request before working on anything big.
+Fixes, improvements and translations are welcome. Please read the [contributing guide](https://github.com/pigeon-studios-uk/.github/blob/main/CONTRIBUTING.md) first, and open a feature request before working on anything big.
 
 The dice engine and the resource have tests that run in plain Lua 5.4, with no server needed:
 

@@ -10,6 +10,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+### Changed
+
+- Links, badges and the update checker's registry address now point to the Pigeon Studios GitHub organisation, [pigeon-studios-uk](https://github.com/pigeon-studios-uk). Old WelshPigeon links still redirect, and copies already installed keep working.
+
 ## [2.0.0] - 2026-10-18
 
 A complete rewrite of Pigeon Dice.
@@ -57,5 +61,5 @@ A complete rewrite of Pigeon Dice.
 - The ox_lib help menu; `/rollhelp` now lists everything in chat.
 - The dependency on ox_lib.
 
-[Unreleased]: https://github.com/WelshPigeon/pigeon-dice/compare/v2.0.0...HEAD
-[2.0.0]: https://github.com/WelshPigeon/pigeon-dice/releases/tag/v2.0.0
+[Unreleased]: https://github.com/pigeon-studios-uk/pigeon-dice/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/pigeon-studios-uk/pigeon-dice/releases/tag/v2.0.0
