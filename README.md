@@ -1,4 +1,6 @@
 <div align="center">
+  <img src=".github/banner.png" alt="Pigeon Dice" width="100%" />
+
   <h1>Pigeon Dice</h1>
 
   <p><strong>Roleplay dice for FiveM: roll anything from a d20 to 2d6+3, advantage, Fate dice, coins and ranges, shown in chat and above your head.</strong></p>
