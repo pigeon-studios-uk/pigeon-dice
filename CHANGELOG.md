@@ -10,6 +10,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [2.1.0] - 2026-11-07
+
 ### Added
 
 - 22 more languages, so it now comes in 23: Czech, Danish, German, Spanish, Estonian, Finnish, French, Croatian, Hungarian, Indonesian, Italian, Dutch, Norwegian, Polish, Portuguese, Brazilian Portuguese, Romanian, Slovenian, Swedish, Turkish, and Simplified and Traditional Chinese.
@@ -68,6 +70,7 @@ A complete rewrite of Pigeon Dice.
 - The ox_lib help menu; `/rollhelp` now lists everything in chat.
 - The dependency on ox_lib.
 
-[Unreleased]: https://github.com/pigeon-studios-uk/pigeon-dice/compare/v2.0.1...HEAD
+[Unreleased]: https://github.com/pigeon-studios-uk/pigeon-dice/compare/v2.1.0...HEAD
+[2.1.0]: https://github.com/pigeon-studios-uk/pigeon-dice/releases/tag/v2.1.0
 [2.0.1]: https://github.com/pigeon-studios-uk/pigeon-dice/releases/tag/v2.0.1
 [2.0.0]: https://github.com/pigeon-studios-uk/pigeon-dice/releases/tag/v2.0.0
