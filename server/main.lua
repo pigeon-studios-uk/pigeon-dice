@@ -14,9 +14,11 @@ local lastRoll = {}
 ---------------------------------------------------------------------------
 -- Text
 
-local strings = Locales[Config.Locale] or Locales.en
-if not Locales[Config.Locale] then
-    print(('^3[%s] Config.Locale "%s" has no file in locales/. Using English.^7'):format(RESOURCE, tostring(Config.Locale)))
+-- 'auto' follows ox_lib's language (the ox:locale convar), and English when that isn't set.
+local locale = Config.Locale == 'auto' and GetConvar('ox:locale', 'en') or Config.Locale
+local strings = Locales[locale] or Locales.en
+if not Locales[locale] then
+    print(('^3[%s] Config.Locale "%s" has no file in locales/. Using English.^7'):format(RESOURCE, tostring(locale)))
 end
 
 --- Looks up a locale string and fills in {placeholders}.

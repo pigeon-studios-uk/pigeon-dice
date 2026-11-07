@@ -11,7 +11,9 @@ local LOS_FLAGS = 17             -- world and objects, the usual flags for line-
 local LOS_INTERVAL_MS = 250      -- how often line of sight is re-checked for each floating roll
 local MAX_FLOATING = 16          -- SetDrawOrigin allows 32 origins a frame; stay well under
 
-local strings = Locales[Config.Locale] or Locales.en
+-- 'auto' follows ox_lib's language (the ox:locale convar), and English when that isn't set.
+local locale = Config.Locale == 'auto' and GetConvar('ox:locale', 'en') or Config.Locale
+local strings = Locales[locale] or Locales.en
 local floating = {}              -- [serverId] = { text, colour, expires, visible, nextLos }
 local drawing = false
 

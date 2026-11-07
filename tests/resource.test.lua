@@ -275,6 +275,7 @@ end
 local function newClient(me, others)
     local client = { chat = {}, suggestions = {}, threads = {}, drawn = {}, events = {}, now = 0 }
     local env = setmetatable({}, { __index = _G })
+    env.GetConvar = function(_, default) return default end
     local peds = { [me.id] = 500 + me.id }
     local pos = { [500 + me.id] = me.pos }
     for _, o in ipairs(others) do peds[o.id] = 500 + o.id; pos[500 + o.id] = o.pos end
